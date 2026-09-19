@@ -1,9 +1,8 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-
 import react from '@astrojs/react';
 
-// https://astro.build/config
 export default defineConfig({
-  integrations: [react()]
+  site: 'https://c-ai.github.io', // Reemplaza TU_USUARIO
+  base: '/c-ai',               // El nombre de tu repositorio
+  integrations: [react()],
 });
